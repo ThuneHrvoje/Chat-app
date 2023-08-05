@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.container__content {
+  display: flex;
+  gap: 10px;
+  height: auto;
+  width: 100%;
+  margin: 10px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  padding: 20px;
+  border: 2px solid blue;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  scroll-behavior: smooth;
+}
+
+.sidebar {
+  border: 3px solid blue;
+  width: 20%;
+  padding: 20px;
+  overflow: hidden;
+}

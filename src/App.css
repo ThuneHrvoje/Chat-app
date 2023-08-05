@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(249, 254, 93);
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+}
+
+.form__button {
+  outline: none;
+  background-color: transparent;
+  border: 3px solid rgb(118, 8, 57);
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 5px 15px;
+  cursor: pointer;
+  transition: 0.2s all ease-in;
+
+  &:hover {
+    background-color: coral;
+  }
+}
+
+.sidebar-title {
+  font-size: 18px;
+  text-align: center;
+}
+
+.members {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  height: 100%;
+  gap: 5px;
+}
+
+.members__item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid black;
+
+  &:first-child {
+    padding-top: 5px;
+    border-top: 1px solid black;
+  }
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
